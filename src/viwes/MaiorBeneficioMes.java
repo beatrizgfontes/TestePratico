@@ -29,7 +29,7 @@ public class MaiorBeneficioMes {
                 
                 else {
                 	funcionario.getCargo().setBeneficio(funcionario.getCargo().getBeneficioDecimal());
-                    beneficio = funcionario.getCargo().getBeneficio();
+                	beneficio = funcionario.getCargo().getBeneficio();
                 }
                 
                 if (beneficio > maiorBeneficio) {
