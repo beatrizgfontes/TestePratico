@@ -3,6 +3,8 @@ package viwes;
 import java.util.List;
 
 import entidades.Funcionario;
+import entidades.Vendedor;
+import desafiopoo.TotalVendas;
 import desafiopoo.SalarioMaisReajuste;
 
 public class TotalPagoBeneficioFucionarioBeneficio {
@@ -18,6 +20,14 @@ public class TotalPagoBeneficioFucionarioBeneficio {
                 funcionario.getCargo().setSalario(salarioTotal);
                 
                 funcionario.getCargo().setBeneficio(funcionario.getCargo().getBeneficioDecimal());
+                
+                if (funcionario instanceof Vendedor) {
+                    double totalVendas = TotalVendas.calcular(funcionario, data);
+                    funcionario.getCargo().setSalario(totalVendas);
+                    
+                    totalBeneficios += (salarioTotal + funcionario.getCargo().getBeneficio());
+                }
+                
                 totalBeneficios += (salarioTotal + funcionario.getCargo().getBeneficio());
             }
         }
