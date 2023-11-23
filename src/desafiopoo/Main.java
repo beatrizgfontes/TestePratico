@@ -55,7 +55,7 @@ public class Main {
         //System.out.print(TotalPagoBeneficioFucionarioBeneficio.calcular(funcionarios, "11/2023"));
 		//System.out.print(MaiorBeneficioMes.calcular(funcionarios, "11/2023"));
 		//System.out.print(MaiorFuncionarioMes.informar(funcionarios, "11/2023").getNome());
-		//System.out.print(MaiorVendedorMes.informar(funcionarios, "11/2023").getNome());
+		//System.out.print(MaiorVendedorMes.informar(funcionarios, "03/2022").getNome());
 	}
 
 }
