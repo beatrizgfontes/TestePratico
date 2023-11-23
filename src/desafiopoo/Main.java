@@ -26,22 +26,17 @@ public class Main {
 		
 		ArrayList<Funcionario> funcionarios = new ArrayList<Funcionario>();
 		
-		//Lista com os Funcion·rios
+		//Lista com os Funcion√°rios
 		funcionarios.add(new Secretario("Jorge Carvalho", Secretario, "01/2018"));
-        funcionarios.add(new Secretario("Maria Souza", Secretario, "12/2015"));
-        funcionarios.add(new Vendedor("Ana Silva", Vendedor, "12/2021"));
-        funcionarios.add(new Vendedor("Jo„o Mendes ", Vendedor, "12/2021"));
-        funcionarios.add(new Gerente("Juliana Alves", Gerente, "07/2017"));
-        funcionarios.add(new Gerente("Bento Albino", Gerente, "03/2014"));
-		
-		//ArrayList<Funcionario> vendedores = new ArrayList<Funcionario>();
-		
-		//vendedores.add(funcionarios.get(2));
-		//vendedores.add(funcionarios.get(3));
+		funcionarios.add(new Secretario("Maria Souza", Secretario, "12/2015"));
+		funcionarios.add(new Vendedor("Ana Silva", Vendedor, "12/2021"));
+		funcionarios.add(new Vendedor("Jo√£o Mendes ", Vendedor, "12/2021"));
+		funcionarios.add(new Gerente("Juliana Alves", Gerente, "07/2017"));
+		funcionarios.add(new Gerente("Bento Albino", Gerente, "03/2014"));
 
         //Tabela de vendas
-        Vendedor vendedor1 = (Vendedor) funcionarios.get(2);
-        Vendedor vendedor2 = (Vendedor) funcionarios.get(3);
+		Vendedor vendedor1 = (Vendedor) funcionarios.get(2);
+		Vendedor vendedor2 = (Vendedor) funcionarios.get(3);
 
         //Adicionando o registro de vendas
         vendedor1.adicionarVendas("12/2021", 5200.00);
@@ -60,7 +55,7 @@ public class Main {
         //System.out.print(TotalPagoBeneficioFucionarioBeneficio.calcular(funcionarios, "11/2023"));
 		//System.out.print(MaiorBeneficioMes.calcular(funcionarios, "11/2023"));
 		//System.out.print(MaiorFuncionarioMes.informar(funcionarios, "11/2023").getNome());
-		//System.out.print(MaiorVendedorMes.informar(vendedores, "11/2023").getNome());
+		//System.out.print(MaiorVendedorMes.informar(funcionarios, "11/2023").getNome());
 	}
 
 }
