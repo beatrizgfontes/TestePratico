@@ -20,9 +20,9 @@ O projeto possui a seguinte estrutura:
 ## Funcionalidades Implementadas
 
 ### O projeto inclui as seguintes funcionalidades:
-Método que calcula o valor total pago (salário e benefício) a funcionários em um determinado mês.
-Método que calcula o total pago apenas em salários a funcionários em um determinado mês.
-Método que calcula o total pago em benefícios a funcionários que recebem benefícios em um determinado mês.
-Método que encontra o funcionário que recebeu o maior valor no mês.
-Método que encontra o nome do funcionário que recebeu o maior valor em benefícios no mês.
-Método que encontra o vendedor que mais vendeu em um determinado mês.
+- Método que calcula o valor total pago (salário e benefício) a funcionários em um determinado mês.
+- Método que calcula o total pago apenas em salários a funcionários em um determinado mês.
+- Método que calcula o total pago em benefícios a funcionários que recebem benefícios em um determinado mês.
+- Método que encontra o funcionário que recebeu o maior valor no mês.
+- Método que encontra o nome do funcionário que recebeu o maior valor em benefícios no mês.
+- Método que encontra o vendedor que mais vendeu em um determinado mês.
